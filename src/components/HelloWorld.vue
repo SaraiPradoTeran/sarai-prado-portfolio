@@ -17,7 +17,7 @@ export default {
   },
   mounted() {
     this.pages.push(null);
-    for (let i = 1; i <= 58; i++) {
+    for (let i = 1; i <= 13; i++) {
       this.pages.push(`./diapositivas/Diapositiva${i}.png`);
     }
   },
