@@ -1,6 +1,8 @@
 <template>
-  <div style="height: 97vh" class="center">
-    <flipbook class="flipbook" :startPage="startPage" :pages="pages"></flipbook>
+  <div style="height: 95vh; width: 100vw;" class="center">
+    <div>
+      <flipbook class="flipbook" :startPage="startPage" :pages="pages"></flipbook>
+    </div>
   </div>
 </template>
 
@@ -17,7 +19,7 @@ export default {
   },
   mounted() {
     this.pages.push(null);
-    for (let i = 1; i <= 58; i++) {
+    for (let i = 1; i <= 13; i++) {
       this.pages.push(`./diapositivas/Diapositiva${i}.png`);
     }
   },

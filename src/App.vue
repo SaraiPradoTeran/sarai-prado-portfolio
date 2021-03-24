@@ -13,8 +13,8 @@ export default {
     HelloWorld
   },
   mounted() {
-    var imagen = document.getElementById("app");
-    imagen.style.backgroundImage = "url('./img/478048.jpg')";
+    // var imagen = document.getElementById("app");
+    // imagen.style.backgroundImage = "url('./img/478048.jpg')";
   }
 };
 </script>
